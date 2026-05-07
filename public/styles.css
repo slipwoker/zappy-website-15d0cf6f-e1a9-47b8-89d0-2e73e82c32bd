@@ -2050,7 +2050,7 @@ nav.navbar {
   right: 0;
   width: 100% !important;
   max-width: none !important;
-  overflow-x: hidden !important;
+  overflow-x: clip !important;
 }
 
 /* iOS Safari fix: When the page has hidden horizontal overflow (which iOS
@@ -2076,7 +2076,7 @@ nav.navbar {
     max-width: none !important;
     left: 0 !important;
     right: 0 !important;
-    overflow-x: hidden !important;
+    overflow-x: clip !important;
     box-sizing: border-box !important;
   }
   /* Selector list mirrors the RTL selectors used elsewhere in Zappy CSS so
@@ -10446,7 +10446,7 @@ section[data-hero-type] {
     max-width: none !important;
     left: 0 !important;
     right: 0 !important;
-    overflow-x: hidden !important;
+    overflow-x: clip !important;
     box-sizing: border-box !important;
   }
   #navMenu,
